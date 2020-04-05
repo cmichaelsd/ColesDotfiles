@@ -1,6 +1,6 @@
 #!/bin/zsh
 # Setup projects directory
-cd ~
+cd $HOME
 mkdir Sites
 mkdir AndroidStudioProjects
 mkdir -p Documents/xCode
@@ -9,11 +9,11 @@ mkdir -p Documents/xCode
 cd Sites
 git clone https://github.com/VinsanityShred/vshred.git
 git clone https://github.com/VinsanityShred/laravel-ecommerce.git
-cd..
+cd ..
 
 cd AndroidStudioProjects
 git clone https://github.com/VinsanityShred/vshred-android-app.git
-cd..
+cd ..
 
 cd Documents/xCode
 git clone https://github.com/VinsanityShred/vshred-ios.git
@@ -21,7 +21,7 @@ cd ../..
 
 # Setup valet
 cd Sites
-echo 'Valet park at ~/Projects directory';
+echo 'Valet park at ~/Sites directory';
 valet park
 cd vshred && valet secure
 cd ..
