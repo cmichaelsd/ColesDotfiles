@@ -13,7 +13,7 @@ Installs brew and links it to .zshrc.
 Installs GUI applications for personal use and tools for development.
 
 #### 3 - Dev Init
-Installs tools specific to development which are non GUI: MySQL, PHP, Node, and set Node verson, etc.
+Installs tools specific for development which are non GUI: MySQL, PHP, Node, and set Node verson, etc.
 Any files not explicitly installed are required by other installations and will auto-install through them: dnsmasq, nginx.
 
 #### 4 - V Shred Init
