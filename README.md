@@ -1,12 +1,12 @@
 # Cole's dotfiles
 
 ### Quick setup for Mac OS Catalina
-This is a setup for my personal use to quickly setup my dev env.
-Run files in order indicated by leader number in the file name.
-These files are explicitly for zsh shell, this will cause issue if these files are ran using Bash or an alternative shell other than zsh.
+This is for my personal use to quickly setup my dev env.
+Run files in order indicated by leading number in the file name.
+These files are explicitly for zsh shell, there will be issues if these files are ran using Bash or an alternative shell other than zsh.
 
 #### 1 Brew Init
-Literally just installs brew and links it to .zshrc.
+Installs brew and links it to .zshrc.
 
 #### 2 App Init
 Installs GUI applications for personal use and tools for development.
