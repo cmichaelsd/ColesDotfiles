@@ -31,4 +31,6 @@ echo 'export PATH="$HOME/.composer/vendor/bin:$PATH"' >> ~/.zshrc
 # Install valet
 valet install
 
-echo 'If the valet command is "unkown" restart the terminal and try "valet -v". If you had issues and valet now appears, retry the "valet install" command.'
+echo 'Possible issues:'
+echo '1) If the valet command is "unkown" restart the terminal and try "valet -v". If you had issues and valet now appears, retry the "valet install" command.'
+echo '2) If entering the command "psql" outputs "psql: FATAL:  database "<user>" does not exist" enter the following: "createdb <user>" and try again.'
