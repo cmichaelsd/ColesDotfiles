@@ -5,7 +5,6 @@ brew cask install cyberduck 2> /dev/null
 brew cask install gitkraken 2> /dev/null
 brew cask install google-chrome 2> /dev/null
 brew cask install iterm2 2> /dev/null
-brew cask install minecraft 2> /dev/null
 brew cask install mpv 2> /dev/null
 brew cask install nordvpn 2> /dev/null
 brew cask install phpstorm 2> /dev/null
