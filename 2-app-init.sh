@@ -1,17 +1,14 @@
 #!/bin/zsh
 # Install casks
-brew cask install android-studio 2> /dev/null
-brew cask install cyberduck 2> /dev/null
-brew cask install gitkraken 2> /dev/null
-brew cask install google-chrome 2> /dev/null
-brew cask install iterm2 2> /dev/null
-brew cask install mpv 2> /dev/null
-brew cask install nordvpn 2> /dev/null
-brew cask install phpstorm 2> /dev/null
-brew cask install postman 2> /dev/null
-brew cask install qbittorrent 2> /dev/null
-brew cask install skype 2> /dev/null
-brew cask install slack 2> /dev/null
-brew cask install tableplus 2> /dev/null
-brew cask install visual-studio-code 2> /dev/null
-brew cask install zoomus 2> /dev/null
+brew install --cask android-studio 2> /dev/null
+brew install --cask cyberduck 2> /dev/null
+brew install --cask gitkraken 2> /dev/null
+brew install --cask google-chrome 2> /dev/null
+brew install --cask iterm2 2> /dev/null
+brew install --cask mpv 2> /dev/null
+brew install --cask phpstorm 2> /dev/null
+brew install --cask postman 2> /dev/null
+brew install --cask slack 2> /dev/null
+brew install --cask tableplus 2> /dev/null
+brew install --cask visual-studio-code 2> /dev/null
+brew install --cask zoom 2> /dev/null
